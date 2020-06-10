@@ -23,7 +23,11 @@
 
 #### Enhancements
 
-* None.
+* Add option to specify a `child_config` / `parent_config` file
+(local or remote) in any SwiftLint configuration file.
+Allow passing multiple configuration files via the command line.  
+[Frederick Pietschmann](https://github.com/fredpi)
+[#1352](https://github.com/realm/SwiftLint/issues/1352)
 
 #### Bug Fixes
 
@@ -276,12 +280,6 @@
   found issues.  
   [krin-san](https://github.com/krin-san)
   [#3177](https://github.com/realm/SwiftLint/pull/3177)
-  
-* Add option to specify a `child_config` / `parent_config` file
-  (local or remote) in any SwiftLint configuration file.
-  Allow passing multiple configuration files via the command line.  
-  [Frederick Pietschmann](https://github.com/fredpi)
-  [#1352](https://github.com/realm/SwiftLint/issues/1352)
 
 * Add opt-in `ibinspectable_in_extension` rule to lint against `@IBInspectable`
   properties in `extensions`.  

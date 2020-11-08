@@ -367,6 +367,7 @@
 		D4B3409D21F16B110038C79A /* UnusedSetterValueRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B3409C21F16B110038C79A /* UnusedSetterValueRule.swift */; };
 		D4B472411F66486300BD6EF1 /* FallthroughRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B472401F66486300BD6EF1 /* FallthroughRule.swift */; };
 		D4B86FC82557BE9000908280 /* PreferNimbleRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B86FC72557BE9000908280 /* PreferNimbleRule.swift */; };
+		D4B86FD22558330B00908280 /* KeyPathExpressionAsFunctionRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B86FD12558330B00908280 /* KeyPathExpressionAsFunctionRule.swift */; };
 		D4BED5F82278AECC00D86BCE /* UnownedVariableCaptureRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BED5F72278AECC00D86BCE /* UnownedVariableCaptureRule.swift */; };
 		D4C0E46F1E3D973600C560F2 /* ForWhereRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C0E46E1E3D973600C560F2 /* ForWhereRule.swift */; };
 		D4C27BFE1E12D53F00DF713E /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C27BFD1E12D53F00DF713E /* Version.swift */; };
@@ -921,6 +922,7 @@
 		D4B3409C21F16B110038C79A /* UnusedSetterValueRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnusedSetterValueRule.swift; sourceTree = "<group>"; };
 		D4B472401F66486300BD6EF1 /* FallthroughRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FallthroughRule.swift; sourceTree = "<group>"; };
 		D4B86FC72557BE9000908280 /* PreferNimbleRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferNimbleRule.swift; sourceTree = "<group>"; };
+		D4B86FD12558330B00908280 /* KeyPathExpressionAsFunctionRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPathExpressionAsFunctionRule.swift; sourceTree = "<group>"; };
 		D4BED5F72278AECC00D86BCE /* UnownedVariableCaptureRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnownedVariableCaptureRule.swift; sourceTree = "<group>"; };
 		D4C0E46E1E3D973600C560F2 /* ForWhereRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForWhereRule.swift; sourceTree = "<group>"; };
 		D4C27BFD1E12D53F00DF713E /* Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
@@ -1407,6 +1409,7 @@
 				47FF3BDF1E7C745100187E6D /* ImplicitlyUnwrappedOptionalRule.swift */,
 				8FC9F5101F4B8E48006826C1 /* IsDisjointRule.swift */,
 				62A6E7911F3317E3003A0479 /* JoinedDefaultParameterRule.swift */,
+				D4B86FD12558330B00908280 /* KeyPathExpressionAsFunctionRule.swift */,
 				4DB7815C1CAD690100BC4723 /* LegacyCGGeometryFunctionsRule.swift */,
 				006ECFC31C44E99E00EF6364 /* LegacyConstantRule.swift */,
 				00B8D9771E2D0FBD004E0EEC /* LegacyConstantRuleExamples.swift */,
@@ -2283,6 +2286,7 @@
 				D43CDEDC23BDB8D30074F3EE /* OptionalEnumCaseMatchingRule.swift in Sources */,
 				094385011D5D2894009168CF /* WeakDelegateRule.swift in Sources */,
 				82F614F22106014500D23904 /* MultilineParametersBracketsRule.swift in Sources */,
+				D4B86FD22558330B00908280 /* KeyPathExpressionAsFunctionRule.swift in Sources */,
 				4100D7A723BEACBF009464E0 /* FileNameNoSpaceConfiguration.swift in Sources */,
 				6BE79EB12204EC0700B5A2FE /* RequiredDeinitRule.swift in Sources */,
 				3B1DF0121C5148140011BCED /* CustomRules.swift in Sources */,

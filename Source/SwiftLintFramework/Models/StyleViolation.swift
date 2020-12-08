@@ -9,6 +9,9 @@ public struct StyleViolation: CustomStringConvertible, Equatable, Codable {
     /// The name of the rule that generated this violation.
     public let ruleName: String
 
+    /// The kind of the rule that generated this violation.
+    public let ruleKind: RuleKind
+
     /// The severity of this violation.
     public private(set) var severity: ViolationSeverity
 
@@ -36,6 +39,7 @@ public struct StyleViolation: CustomStringConvertible, Equatable, Codable {
         self.ruleIdentifier = ruleDescription.identifier
         self.ruleDescription = ruleDescription.description
         self.ruleName = ruleDescription.name
+        self.ruleKind = ruleDescription.kind
         self.severity = severity
         self.location = location
         self.reason = reason ?? ruleDescription.description
